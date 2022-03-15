@@ -1,0 +1,52 @@
+#section1{
+            background-color:whitesmoke;
+            font-size: 14px;
+            float: left; 
+
+        width: 1500px;
+        height: 1500px;
+        background-color: yellow;
+         
+
+        }
+
+        .center
+        {
+                margin-left: 150px;
+
+        }
+
+
+.id {
+        width: 150px; 
+        height: 150px;
+        float: left;
+}
+h1{
+        color: blue;
+}
+h2{
+        color: blue;
+}
+h3{
+        color: blue;
+}
+
+.section2{
+            background-color: yellow;
+            font-size: 13px;
+         }
+body {
+        border-bottom:20px solid lightblue;
+        border-top:20px solid lightblue;
+        border-right: 20px solid lightgray;
+        border-left:20px solid lightgray ;
+        margin-left: 300px;
+        margin-right: 300px;
+}
+@media screen and(max-width: 60px){
+        .responsive{
+            display: flex;
+            flex-wrap: wrap;
+        }
+}
